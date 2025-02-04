@@ -60,10 +60,10 @@ header{
 }
 .header-main-content {
    
-    margin-top: 100px;
-    margin-left: 40px;
+    padding: 10%;
     text-align: center;
-    padding-bottom: 90px;
+    height: auto;
+    width: 100%;
 }
 
 hr {
