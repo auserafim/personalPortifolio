@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Virgil';
+    src: url(Virgil.woff2) format('woff2');
+    font-display: swap;
+}
+
+body *{
+   font-family: 'Virgil', sans-serif ;
+   font-weight: bold;
+   margin: 0px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+ 
+.logoPlusName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#doggsFace {
+    width: 50px;
+    height: auto;
+}
+
+.logoPlusName h2 {
+  
+    font-size: 30px;
+    margin-left: 15px;
+    
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: white;
+    height: 45px;
+}
+.nav-container ul {
+    margin: 0;
+    padding: 0;
+}
+.nav-container li, a {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    
+}
+
+header{
+    background-color: white;
+    padding: 2px;
+}
+.header-main-content {
+   
+    margin-top: 100px;
+    margin-left: 40px;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+hr {
+    border: 5px solid red;
+    margin-top: 0;
+}
+
+
+.middle-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    text-align: center;
+    gap: 0;
+    width: 100%;
+   
+  
+}
+
+aside {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    border: 5px solid red;
+    
+    
+}
+.aside-container p, h2 {
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px;
+}
+.aside-container h2 {
+    text-align: center;
+}
+
+
+
+
+.middle-content {
+    
+    background-color: white;
+    height: auto;
+    width: 100%;
+    border: 5px solid red;
+
+}
+
+.right-aside {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    border: 5px solid red;
+    
+    
+}
+.right-aside p, h2 {
+    font-size: 20px;
+    text-align: center;
+}
+.right-aside ul, li {
+    text-align: center;
+    list-style-type: square;
+    list-style-position: inside ;
+}
+.first-half {
+    height:auto ;
+    
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    bottom: 0;
+}
+
+.footer-boxes {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 0;
+    width: 100%;
+    height: auto;
+    background-color: white;
+ 
+}
+
+.reviews {
+    border: 4px solid rgb(196, 67, 67);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 20px;
+    padding: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        color: aqua;
+    }
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .footer-boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .middle-container {
+        flex-direction: column;
+    }
+}
+
